@@ -92,7 +92,7 @@
                                                         class="required">*</span></label>
                                                     <textarea rows="2" type="text" name="icon" class="form-control" id="feature_0"
                                                         placeholder="Enter Icon <span></span>" required>{{old('icon')}}</textarea>
-                                                        <span>Copy tag from this website : <a target="_blank" href="https://fontawesome.com/icons">Link</a></span>
+                                                        <span>Copy tag from this website : <a target="_blank" href="https://linearicons.com/free">Link</a></span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-4">

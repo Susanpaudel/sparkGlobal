@@ -68,7 +68,7 @@
                         data-transform_out="{{ $key % 2 == 0 ? 'x:-100px;' : 'x:100px;' }}opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                         data-start="1900" data-fontsize="['16','16','15','13']" data-lineheight="['32','32','24','24']"
                         data-responsive_offset="on">
-                            <p class="">{{$slider->body}}</p>
+                            <p class="">{!!$slider->body!!}</p>
                         </div>
                         @if(isset($slider->button_one_title))
                         <!-- LAYER NR. 4 -->

@@ -38,7 +38,7 @@
                 </li>
                 <li class="nav-item @if (Request::is('admin/blogs*')) menu-open @endif">
                     <a href="{{ route('admin.blog.index') }}" class="nav-link @if (Request::is('admin/blogs*')) active @endif">
-                        <i class="nav-icon fas fa-comment"></i>
+                        <i class="nav-icon fas fa-copy"></i>
                         <p> Blogs</i>
                         </p>
                     </a>
@@ -59,7 +59,7 @@
 
                 <li class="nav-item @if (Request::is('admin/services*') || Request::is('admin/trader_choose_us*')) menu-open @endif">
                     <a href="#" class="nav-link @if (Request::is('admin/services*') || Request::is('admin/services*')) active @endif">
-                        <i class="nav-icon fas fa-users"></i>
+                        <i class="nav-icon fas fa-th"></i>
                         <p> Service Management<i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -111,7 +111,7 @@
                 <li class="nav-item">
                     <a href="{{ route('admin.contact.index') }}"
                         class="nav-link @if (Request::is('admin/contacts*')) active @endif">
-                        <i class="nav-icon fas fa-tv"></i>
+                        <i class="nav-icon fas fa-phone"></i>
                         <p> Contacts <span class="right badge badge-danger"></span>
                         </p>
                     </a>
@@ -119,7 +119,7 @@
                 <li class="nav-item">
                     <a href="{{ route('admin.newsletter.index') }}"
                         class="nav-link @if (Request::is('admin/newsletter*')) active @endif">
-                        <i class="nav-icon fas fa-tv"></i>
+                        <i class="nav-icon fas fa-envelope"></i>
                         <p> NewsLetters <span class="right badge badge-danger"></span>
                         </p>
                     </a>

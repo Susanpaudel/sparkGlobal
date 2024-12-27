@@ -68,7 +68,7 @@
                                             <textarea type="text" class="form-control" rows="4" name="icon"
                                              placeholder="Enter icon" required>{{old('icon')}}</textarea>
                                         </div>
-                                        <span>Copy tag from this website : <a target="_blank" href="https://fontawesome.com/icons">Link</a></span>
+                                        <span>Copy tag from this website : <a target="_blank" href="https://www.flaticon.com/free-icons/trophy">Link</a></span>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-group">
