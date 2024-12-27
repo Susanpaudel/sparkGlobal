@@ -1,0 +1,14 @@
+{
+    "name": "globalstudio/university",
+    "description": "University Package",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Globalstudio\\University\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
